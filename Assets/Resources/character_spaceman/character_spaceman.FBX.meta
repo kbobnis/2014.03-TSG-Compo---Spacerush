@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 88136cdcec34d6f428432a8153239e31
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 L Calf
+    100008: Bip001 L Clavicle
+    100010: Bip001 L Finger0
+    100012: Bip001 L Foot
+    100014: Bip001 L Forearm
+    100016: Bip001 L Hand
+    100018: Bip001 L Thigh
+    100020: Bip001 L Toe0
+    100022: Bip001 L UpperArm
+    100024: Bip001 Neck
+    100026: Bip001 Pelvis
+    100028: Bip001 R Calf
+    100030: Bip001 R Clavicle
+    100032: Bip001 R Finger0
+    100034: Bip001 R Foot
+    100036: Bip001 R Forearm
+    100038: Bip001 R Hand
+    100040: Bip001 R Thigh
+    100042: Bip001 R Toe0
+    100044: Bip001 R UpperArm
+    100046: Bip001 Spine
+    100048: character_body
+    100050: character_fistL
+    100052: character_fistR
+    100054: character_footL
+    100056: character_footR
+    100058: character_head
+    100060: character_pauldronL
+    100062: character_pauldronR
+    100064: character_skinnable
+    100066: //RootNode
+    100068: charMale_beard_retopo5k
+    100070: charMale_hair_retopo5k
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 L Calf
+    400008: Bip001 L Clavicle
+    400010: Bip001 L Finger0
+    400012: Bip001 L Foot
+    400014: Bip001 L Forearm
+    400016: Bip001 L Hand
+    400018: Bip001 L Thigh
+    400020: Bip001 L Toe0
+    400022: Bip001 L UpperArm
+    400024: Bip001 Neck
+    400026: Bip001 Pelvis
+    400028: Bip001 R Calf
+    400030: Bip001 R Clavicle
+    400032: Bip001 R Finger0
+    400034: Bip001 R Foot
+    400036: Bip001 R Forearm
+    400038: Bip001 R Hand
+    400040: Bip001 R Thigh
+    400042: Bip001 R Toe0
+    400044: Bip001 R UpperArm
+    400046: Bip001 Spine
+    400048: character_body
+    400050: character_fistL
+    400052: character_fistR
+    400054: character_footL
+    400056: character_footR
+    400058: character_head
+    400060: character_pauldronL
+    400062: character_pauldronR
+    400064: character_skinnable
+    400066: //RootNode
+    400068: charMale_beard_retopo5k
+    400070: charMale_hair_retopo5k
+    2300000: character_body
+    2300002: character_fistL
+    2300004: character_fistR
+    2300006: character_footL
+    2300008: character_footR
+    2300010: character_head
+    2300012: character_pauldronL
+    2300014: character_pauldronR
+    2300016: charMale_beard_retopo5k
+    2300018: charMale_hair_retopo5k
+    3300000: character_body
+    3300002: character_fistL
+    3300004: character_fistR
+    3300006: character_footL
+    3300008: character_footR
+    3300010: character_head
+    3300012: character_pauldronL
+    3300014: character_pauldronR
+    3300016: charMale_beard_retopo5k
+    3300018: charMale_hair_retopo5k
+    4300000: character_skinnable
+    4300002: character_footL
+    4300004: character_footR
+    4300006: character_fistL
+    4300008: character_pauldronL
+    4300010: character_fistR
+    4300012: character_pauldronR
+    4300014: character_head
+    4300016: charMale_hair_retopo5k
+    4300018: charMale_beard_retopo5k
+    4300020: character_body
+    9500000: //RootNode
+    13700000: character_skinnable
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

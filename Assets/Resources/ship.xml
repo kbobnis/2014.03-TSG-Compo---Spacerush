@@ -1,0 +1,172 @@
+<root>
+	<parameters>
+		<heal_percentage value = "0.04"/>
+		<overheat_factor value = "0.025"/>
+		<cooling_factor value = "0.04"/>
+		<suffocate_factor value = "0.05"/>
+		<min_o2_to_thrive value = "0.5"/>
+		<fire_damage_factor value = "0.05"/>
+		<propagate_o2_factor value = "1"/>
+		<action_speed value="5.0"/>
+		<min_o2_level value = "0.01"/>
+		<reduce_o2 value = "0.05"/>
+		<propagate_fire_factor value = "1"/>
+		<fire_contagiuosness value="1" />
+		<fire_suffocate_factor value="1" />
+		<overheat_progress_factor value="0.2" />
+	</parameters>
+	<meteorites>
+		<meteorite duration="15" probability="1" cooldown="1" destroyProbability="1" fireProbability="1"/>
+		<meteorite duration="5" probability="0" cooldown="4" destroyProbability="0.5" fireProbability="0.5"/>
+		<meteorite duration="15" probability="1" cooldown="1" destroyProbability="0" fireProbability="1"/>
+		<meteorite duration="10" probability="0" cooldown="4" destroyProbability="0.5" fireProbability="0.5"/>
+		<meteorite duration="15" probability="1" cooldown="1" destroyProbability="1" fireProbability="1"/>
+		<meteorite duration="15" probability="0.5" cooldown="2" destroyProbability="0.5" fireProbability="0.5"/>
+	</meteorites>
+
+	<ship passiveReduceO2Factor="0.1" />
+	<bg>
+		<img url="bg.png" x="0" y="0"/>
+	</bg>
+	<voidgenerator c="2" r="1" reduceO2Factor="0.02" />
+	<tiles>
+		<tile c="2" r="1" floor="exterior"/>
+		<tile c="3" r="1" floor="exterior" down="hull"/>
+		<tile c="4" r="1" floor="exterior" down="hull"/>
+		<tile c="5" r="1" floor="exterior" down="hull"/>
+		<tile c="6" r="1" floor="exterior" down="hull"/>
+		<tile c="7" r="1" floor="exterior" down="hull"/>
+		<tile c="8" r="1" floor="exterior" down="hull"/>
+		<tile c="9" r="1" floor="exterior" down="hull"/>
+		<tile c="10" r="1" floor="exterior"/>
+		<tile c="2" r="2" floor="exterior" right="hull"/>
+		<tile c="3" r="2" floor="interior" system="cooling" up="hull" left="hull"/>
+		<tile c="4" r="2" floor="interior" up="hull" right="wall"/>
+		<tile c="5" r="2" floor="interior" up="hull" left="wall"/>
+		<tile c="6" r="2" floor="interior" up="hull"/>
+		<tile c="7" r="2" floor="interior" up="hull" right="wall"/>
+		<tile c="8" r="2" floor="interior" up="hull" left="wall"/>
+		<tile c="9" r="2" floor="interior" system="cooling" up="hull" right="hull"/>
+		<tile c="10" r="2" floor="exterior" left="hull"/>
+		<tile c="2" r="3" floor="exterior" right="Sdoor"/>
+		<tile c="3" r="3" floor="interior" left="Sdoor"/>
+		<tile c="4" r="3" floor="interior" right="door"/>
+		<tile c="5" r="3" floor="interior" left="door"/>
+		<tile c="6" r="3" floor="interior"/>
+		<tile c="7" r="3" floor="interior" right="door"/>
+		<tile c="8" r="3" floor="interior" left="door"/>
+		<tile c="9" r="3" floor="interior" right="Sdoor"/>
+		<tile c="10" r="3" floor="exterior" left="Sdoor"/>
+		<tile c="2" r="4" floor="exterior" right="hull"/>
+		<tile c="3" r="4" floor="interior" system="cooling" down="hull" left="hull"/>
+		<tile c="4" r="4" floor="interior" down="hull" right="wall"/>
+		<tile c="5" r="4" floor="interior" down="wall" left="wall"/>
+		<tile c="6" r="4" floor="interior" down="door"/>
+		<tile c="7" r="4" floor="interior" down="wall" right="wall"/>
+		<tile c="8" r="4" floor="interior" down="hull" left="wall"/>
+		<tile c="9" r="4" floor="interior" system="cooling" down="hull" right="hull"/>
+		<tile c="10" r="4" floor="exterior" left="hull"/>
+		<tile c="2" r="5" floor="exterior"/>
+		<tile c="3" r="5" floor="exterior" up="hull"/>
+		<tile c="4" r="5" floor="exterior" up="hull" right="hull"/>
+		<tile c="5" r="5" floor="interior" up="wall" left="hull"/>
+		<tile c="6" r="5" floor="interior" up="door"/>
+		<tile c="7" r="5" floor="interior" up="wall" right="hull"/>
+		<tile c="8" r="5" floor="exterior" up="hull" left="hull"/>
+		<tile c="9" r="5" floor="exterior" up="hull"/>
+		<tile c="10" r="5" floor="exterior"/>
+		<tile c="4" r="6" floor="exterior" right="hull"/>
+		<tile c="5" r="6" floor="interior" left="hull"/>
+		<tile c="6" r="6" floor="interior"/>
+		<tile c="7" r="6" floor="interior" right="hull"/>
+		<tile c="8" r="6" floor="exterior" left="hull"/>
+		<tile c="1" r="7" floor="exterior"/>
+		<tile c="2" r="7" floor="exterior" down="hull"/>
+		<tile c="3" r="7" floor="exterior" down="hull"/>
+		<tile c="4" r="7" floor="exterior" down="hull" right="hull"/>
+		<tile c="5" r="7" floor="interior" down="wall" left="hull"/>
+		<tile c="6" r="7" floor="interior" down="door"/>
+		<tile c="7" r="7" floor="interior" down="wall" right="hull"/>
+		<tile c="8" r="7" floor="exterior" down="hull" left="hull"/>
+		<tile c="9" r="7" floor="exterior" down="hull"/>
+		<tile c="10" r="7" floor="exterior" down="hull"/>
+		<tile c="11" r="7" floor="exterior"/>
+		<tile c="1" r="8" floor="exterior" right="hull"/>
+		<tile c="2" r="8" floor="interior" up="hull" left="hull"/>
+		<tile c="3" r="8" floor="interior" up="hull"/>
+		<tile c="4" r="8" floor="interior" up="hull" right="wall"/>
+		<tile c="5" r="8" floor="interior" up="wall" left="wall"/>
+		<tile c="6" r="8" floor="interior" up="door"/>
+		<tile c="7" r="8" floor="interior" up="wall" right="wall"/>
+		<tile c="8" r="8" floor="interior" up="hull" left="wall"/>
+		<tile c="9" r="8" floor="interior" up="hull"/>
+		<tile c="10" r="8" floor="interior" up="hull" right="hull"/>
+		<tile c="11" r="8" floor="exterior" left="hull"/>
+		<tile c="1" r="9" floor="exterior" right="hull"/>
+		<tile c="2" r="9" floor="interior" left="hull"/>
+		<tile c="3" r="9" floor="interior"/>
+		<tile c="4" r="9" floor="interior" right="door"/>
+		<tile c="5" r="9" floor="interior" left="door"/>
+		<tile c="6" r="9" floor="interior" system="medic"/>
+		<tile c="7" r="9" floor="interior" right="door"/>
+		<tile c="8" r="9" floor="interior" left="door"/>
+		<tile c="9" r="9" floor="interior"/>
+		<tile c="10" r="9" floor="interior" right="hull"/>
+		<tile c="11" r="9" floor="exterior" left="hull"/>
+		<tile c="1" r="10" floor="exterior" right="hull"/>
+		<tile c="2" r="10" floor="interior" down="wall" left="hull"/>
+		<tile c="3" r="10" floor="interior" down="door"/>
+		<tile c="4" r="10" floor="interior" down="wall" right="wall"/>
+		<tile c="5" r="10" floor="interior" down="wall" left="wall"/>
+		<tile c="6" r="10" floor="interior" down="door"/>
+		<tile c="7" r="10" floor="interior" down="wall" right="wall"/>
+		<tile c="8" r="10" floor="interior" down="wall" left="wall"/>
+		<tile c="9" r="10" floor="interior" down="door"/>
+		<tile c="10" r="10" floor="interior" down="wall" right="hull"/>
+		<tile c="11" r="10" floor="exterior" left="hull"/>
+		<tile c="1" r="11" floor="exterior" right="hull"/>
+		<tile c="2" r="11" floor="interior" up="wall" left="hull"/>
+		<tile c="3" r="11" floor="interior" up="door"/>
+		<tile c="4" r="11" floor="interior" up="wall" right="wall"/>
+		<tile c="5" r="11" floor="interior" up="wall" left="wall"/>
+		<tile c="6" r="11" floor="interior" up="door"/>
+		<tile c="7" r="11" floor="interior" up="wall" right="wall"/>
+		<tile c="8" r="11" floor="interior" up="wall" left="wall"/>
+		<tile c="9" r="11" floor="interior" up="door"/>
+		<tile c="10" r="11" floor="interior" up="wall" right="hull"/>
+		<tile c="11" r="11" floor="exterior" left="hull"/>
+		<tile c="1" r="12" floor="exterior" right="Sdoor"/>
+		<tile c="2" r="12" floor="interior" left="Sdoor"/>
+		<tile c="3" r="12" floor="interior"/>
+		<tile c="4" r="12" floor="interior" right="door"/>
+		<tile c="5" r="12" floor="interior" left="door"/>
+		<tile c="6" r="12" floor="interior"/>
+		<tile c="7" r="12" floor="interior" right="door"/>
+		<tile c="8" r="12" floor="interior" left="door"/>
+		<tile c="9" r="12" floor="interior"/>
+		<tile c="10" r="12" floor="interior" right="Sdoor"/>
+		<tile c="11" r="12" floor="exterior" left="Sdoor"/>
+		<tile c="1" r="13" floor="exterior" right="hull"/>
+		<tile c="2" r="13" floor="interior" down="hull" left="hull"/>
+		<tile c="3" r="13" floor="interior" down="hull"/>
+		<tile c="4" r="13" floor="interior" down="hull" right="wall"/>
+		<tile c="5" r="13" floor="interior" down="hull" left="wall"/>
+		<tile c="6" r="13" floor="interior" down="hull"/>
+		<tile c="7" r="13" floor="interior" down="hull" right="wall"/>
+		<tile c="8" r="13" floor="interior" system="o2" down="hull" left="wall"/>
+		<tile c="9" r="13" floor="interior" system="o2" down="hull"/>
+		<tile c="10" r="13" floor="interior" down="hull" right="hull"/>
+		<tile c="11" r="13" floor="exterior" left="hull"/>
+		<tile c="1" r="14" floor="exterior"/>
+		<tile c="2" r="14" floor="exterior" up="hull"/>
+		<tile c="3" r="14" floor="exterior" up="hull"/>
+		<tile c="4" r="14" floor="exterior" up="hull"/>
+		<tile c="5" r="14" floor="exterior" up="hull"/>
+		<tile c="6" r="14" floor="exterior" up="hull"/>
+		<tile c="7" r="14" floor="exterior" up="hull"/>
+		<tile c="8" r="14" floor="exterior" up="hull"/>
+		<tile c="9" r="14" floor="exterior" up="hull"/>
+		<tile c="10" r="14" floor="exterior" up="hull"/>
+		<tile c="11" r="14" floor="exterior"/>
+	</tiles>
+</root>

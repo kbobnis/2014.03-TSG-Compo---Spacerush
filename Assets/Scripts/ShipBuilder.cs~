@@ -1,0 +1,56 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Xml;
+
+public class ShipBuilder : MonoBehaviour {
+
+	public GameObject tilePrefab;
+	public TextAsset shipSpec;
+
+	// Use this for initialization
+	void Start () {
+		XmlDocument xmlDoc = new XmlDocument();
+		xmlDoc.LoadXml(shipSpec.text);
+		XmlNode bg = xmlDoc.GetElementsByTagName("bg").Item (0);
+		foreach (XmlElement child in bg.ChildNodes) {
+			AddBackgroundImage(child.GetAttribute("url"),
+			                   int.Parse(child.GetAttribute("x")),
+			                   int.Parse(child.GetAttribute("y")));
+		}
+
+		XmlNode voidGenerator = xmlDoc.GetElementsByTagName("voidgenerator").Item (0);
+			AddVoidGenerator(int.Parse(voidGenerator.Attributes["c"].Value),
+			                 int.Parse(voidGenerator.Attributes["r"].value));
+			foreach (XmlNode tile in xmlDoc.GetElementsByTagName("tile")) {
+				AddTile(int.Parse(tile.Attributes["c"].value),
+				        int.Parse(tile.Attributes["r"].value),
+				        tile.Attributes["left"].value,
+				        tile.Attributes["top"].value,
+				        tile.Attributes["right"].value,
+				        tile.Attributes["down"].value,
+				        bool.Parse(tile.Attributes["isWalkable"].value),
+				        tile.Attributes["system"].value);
+			}
+	}
+
+	void AddVoidGenerator(int column, int row) {
+	}
+
+	void AddBackgroundImage(string imageName, int x, int y) {
+
+	}
+
+	void AddTile(int column, int row, string left, string top, string right, string bottom, bool walkable, string system) {
+		GameObject newTile = (GameObject) Instantiate (tilePrefab);
+		Tile tileComponent = newTile.GetComponent<Tile> ();
+		tileComponent.walkable = walkable;
+		InGamePosition position = newTile.GetComponent<InGamePosition> ();
+		position.column = column;
+		position.row = row;
+	}
+
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}

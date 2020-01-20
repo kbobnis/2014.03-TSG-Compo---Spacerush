@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b7aad79b42c9d46c982d1533f7943eb3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shakerPrefab: {fileID: 100000, guid: 77d0deb056b814a488bac8f5cf65b30a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
