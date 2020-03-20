@@ -2,7 +2,9 @@ using UnityEngine;
 using System.Collections;
 using System.Xml;
 using System.Collections.Generic;
-
+using System;
+using System.Globalization;
+using System.Threading;
 
 public class Ship : MonoBehaviour {
 
@@ -25,6 +27,11 @@ public class Ship : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		////CultureInfo.CreateSpecificCulture("en-GB")
+		CultureInfo ci = new CultureInfo("en-GB");
+		Thread.CurrentThread.CurrentCulture = ci;
+		Thread.CurrentThread.CurrentUICulture = ci;
+		
 		LoadXml ();
 		Ship.me = this;
 	}

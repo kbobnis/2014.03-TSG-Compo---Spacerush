@@ -1,95 +1,217 @@
 fileFormatVersion: 2
 guid: 0ddce9c491bbf444db5feec3b3a7c6a4
 ModelImporter:
-  serializedVersion: 15
-  fileIDToRecycleName:
-    100000: door001
-    100002: //RootNode
-    100004: door_circle
-    100006: door_door001
-    100008: door_handle
-    100010: door_handle_cog1
-    100012: door_handle_cog2
-    100014: door_handle_wheel
-    100016: DoorScaler
-    100018: gear001
-    100020: gear002
-    400000: //RootNode
-    400002: door001
-    400004: door_circle
-    400006: door_door001
-    400008: door_handle
-    400010: door_handle_cog1
-    400012: door_handle_cog2
-    400014: door_handle_wheel
-    400016: DoorScaler
-    400018: gear001
-    400020: gear002
-    2300000: door001
-    2300002: door_circle
-    2300004: door_door001
-    2300006: gear001
-    2300008: gear002
-    3300000: door001
-    3300002: door_circle
-    3300004: door_door001
-    3300006: gear001
-    3300008: gear002
-    4300000: door001
-    4300002: gear001
-    4300004: gear002
-    4300006: door_door001
-    4300008: door_circle
-    9500000: //RootNode
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: door001
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: door_circle
+  - first:
+      1: 100006
+    second: door_door001
+  - first:
+      1: 100008
+    second: door_handle
+  - first:
+      1: 100010
+    second: door_handle_cog1
+  - first:
+      1: 100012
+    second: door_handle_cog2
+  - first:
+      1: 100014
+    second: door_handle_wheel
+  - first:
+      1: 100016
+    second: DoorScaler
+  - first:
+      1: 100018
+    second: gear001
+  - first:
+      1: 100020
+    second: gear002
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: door001
+  - first:
+      4: 400004
+    second: door_circle
+  - first:
+      4: 400006
+    second: door_door001
+  - first:
+      4: 400008
+    second: door_handle
+  - first:
+      4: 400010
+    second: door_handle_cog1
+  - first:
+      4: 400012
+    second: door_handle_cog2
+  - first:
+      4: 400014
+    second: door_handle_wheel
+  - first:
+      4: 400016
+    second: DoorScaler
+  - first:
+      4: 400018
+    second: gear001
+  - first:
+      4: 400020
+    second: gear002
+  - first:
+      23: 2300000
+    second: door001
+  - first:
+      23: 2300002
+    second: door_circle
+  - first:
+      23: 2300004
+    second: door_door001
+  - first:
+      23: 2300006
+    second: gear001
+  - first:
+      23: 2300008
+    second: gear002
+  - first:
+      33: 3300000
+    second: door001
+  - first:
+      33: 3300002
+    second: door_circle
+  - first:
+      33: 3300004
+    second: door_door001
+  - first:
+      33: 3300006
+    second: gear001
+  - first:
+      33: 3300008
+    second: gear002
+  - first:
+      43: 4300000
+    second: door001
+  - first:
+      43: 4300002
+    second: gear001
+  - first:
+      43: 4300004
+    second: gear002
+  - first:
+      43: 4300006
+    second: door_door001
+  - first:
+      43: 4300008
+    second: door_circle
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #25
+    second: {fileID: 2100000, guid: 1fdb19f90f89ce74680844c059c23eea, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 2628d160d0242314dbdb1a91faf22667
+  - 56fea73600b122f4a8de54a0a63c454b
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

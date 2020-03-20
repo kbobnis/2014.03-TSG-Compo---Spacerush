@@ -1,162 +1,426 @@
 fileFormatVersion: 2
 guid: 88136cdcec34d6f428432a8153239e31
 ModelImporter:
-  serializedVersion: 15
-  fileIDToRecycleName:
-    100000: Bip001
-    100002: Bip001 Footsteps
-    100004: Bip001 Head
-    100006: Bip001 L Calf
-    100008: Bip001 L Clavicle
-    100010: Bip001 L Finger0
-    100012: Bip001 L Foot
-    100014: Bip001 L Forearm
-    100016: Bip001 L Hand
-    100018: Bip001 L Thigh
-    100020: Bip001 L Toe0
-    100022: Bip001 L UpperArm
-    100024: Bip001 Neck
-    100026: Bip001 Pelvis
-    100028: Bip001 R Calf
-    100030: Bip001 R Clavicle
-    100032: Bip001 R Finger0
-    100034: Bip001 R Foot
-    100036: Bip001 R Forearm
-    100038: Bip001 R Hand
-    100040: Bip001 R Thigh
-    100042: Bip001 R Toe0
-    100044: Bip001 R UpperArm
-    100046: Bip001 Spine
-    100048: character_body
-    100050: character_fistL
-    100052: character_fistR
-    100054: character_footL
-    100056: character_footR
-    100058: character_head
-    100060: character_pauldronL
-    100062: character_pauldronR
-    100064: character_skinnable
-    100066: //RootNode
-    100068: charMale_beard_retopo5k
-    100070: charMale_hair_retopo5k
-    400000: Bip001
-    400002: Bip001 Footsteps
-    400004: Bip001 Head
-    400006: Bip001 L Calf
-    400008: Bip001 L Clavicle
-    400010: Bip001 L Finger0
-    400012: Bip001 L Foot
-    400014: Bip001 L Forearm
-    400016: Bip001 L Hand
-    400018: Bip001 L Thigh
-    400020: Bip001 L Toe0
-    400022: Bip001 L UpperArm
-    400024: Bip001 Neck
-    400026: Bip001 Pelvis
-    400028: Bip001 R Calf
-    400030: Bip001 R Clavicle
-    400032: Bip001 R Finger0
-    400034: Bip001 R Foot
-    400036: Bip001 R Forearm
-    400038: Bip001 R Hand
-    400040: Bip001 R Thigh
-    400042: Bip001 R Toe0
-    400044: Bip001 R UpperArm
-    400046: Bip001 Spine
-    400048: character_body
-    400050: character_fistL
-    400052: character_fistR
-    400054: character_footL
-    400056: character_footR
-    400058: character_head
-    400060: character_pauldronL
-    400062: character_pauldronR
-    400064: character_skinnable
-    400066: //RootNode
-    400068: charMale_beard_retopo5k
-    400070: charMale_hair_retopo5k
-    2300000: character_body
-    2300002: character_fistL
-    2300004: character_fistR
-    2300006: character_footL
-    2300008: character_footR
-    2300010: character_head
-    2300012: character_pauldronL
-    2300014: character_pauldronR
-    2300016: charMale_beard_retopo5k
-    2300018: charMale_hair_retopo5k
-    3300000: character_body
-    3300002: character_fistL
-    3300004: character_fistR
-    3300006: character_footL
-    3300008: character_footR
-    3300010: character_head
-    3300012: character_pauldronL
-    3300014: character_pauldronR
-    3300016: charMale_beard_retopo5k
-    3300018: charMale_hair_retopo5k
-    4300000: character_skinnable
-    4300002: character_footL
-    4300004: character_footR
-    4300006: character_fistL
-    4300008: character_pauldronL
-    4300010: character_fistR
-    4300012: character_pauldronR
-    4300014: character_head
-    4300016: charMale_hair_retopo5k
-    4300018: charMale_beard_retopo5k
-    4300020: character_body
-    9500000: //RootNode
-    13700000: character_skinnable
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip001
+  - first:
+      1: 100002
+    second: Bip001 Footsteps
+  - first:
+      1: 100004
+    second: Bip001 Head
+  - first:
+      1: 100006
+    second: Bip001 L Calf
+  - first:
+      1: 100008
+    second: Bip001 L Clavicle
+  - first:
+      1: 100010
+    second: Bip001 L Finger0
+  - first:
+      1: 100012
+    second: Bip001 L Foot
+  - first:
+      1: 100014
+    second: Bip001 L Forearm
+  - first:
+      1: 100016
+    second: Bip001 L Hand
+  - first:
+      1: 100018
+    second: Bip001 L Thigh
+  - first:
+      1: 100020
+    second: Bip001 L Toe0
+  - first:
+      1: 100022
+    second: Bip001 L UpperArm
+  - first:
+      1: 100024
+    second: Bip001 Neck
+  - first:
+      1: 100026
+    second: Bip001 Pelvis
+  - first:
+      1: 100028
+    second: Bip001 R Calf
+  - first:
+      1: 100030
+    second: Bip001 R Clavicle
+  - first:
+      1: 100032
+    second: Bip001 R Finger0
+  - first:
+      1: 100034
+    second: Bip001 R Foot
+  - first:
+      1: 100036
+    second: Bip001 R Forearm
+  - first:
+      1: 100038
+    second: Bip001 R Hand
+  - first:
+      1: 100040
+    second: Bip001 R Thigh
+  - first:
+      1: 100042
+    second: Bip001 R Toe0
+  - first:
+      1: 100044
+    second: Bip001 R UpperArm
+  - first:
+      1: 100046
+    second: Bip001 Spine
+  - first:
+      1: 100048
+    second: character_body
+  - first:
+      1: 100050
+    second: character_fistL
+  - first:
+      1: 100052
+    second: character_fistR
+  - first:
+      1: 100054
+    second: character_footL
+  - first:
+      1: 100056
+    second: character_footR
+  - first:
+      1: 100058
+    second: character_head
+  - first:
+      1: 100060
+    second: character_pauldronL
+  - first:
+      1: 100062
+    second: character_pauldronR
+  - first:
+      1: 100064
+    second: character_skinnable
+  - first:
+      1: 100066
+    second: //RootNode
+  - first:
+      1: 100068
+    second: charMale_beard_retopo5k
+  - first:
+      1: 100070
+    second: charMale_hair_retopo5k
+  - first:
+      4: 400000
+    second: Bip001
+  - first:
+      4: 400002
+    second: Bip001 Footsteps
+  - first:
+      4: 400004
+    second: Bip001 Head
+  - first:
+      4: 400006
+    second: Bip001 L Calf
+  - first:
+      4: 400008
+    second: Bip001 L Clavicle
+  - first:
+      4: 400010
+    second: Bip001 L Finger0
+  - first:
+      4: 400012
+    second: Bip001 L Foot
+  - first:
+      4: 400014
+    second: Bip001 L Forearm
+  - first:
+      4: 400016
+    second: Bip001 L Hand
+  - first:
+      4: 400018
+    second: Bip001 L Thigh
+  - first:
+      4: 400020
+    second: Bip001 L Toe0
+  - first:
+      4: 400022
+    second: Bip001 L UpperArm
+  - first:
+      4: 400024
+    second: Bip001 Neck
+  - first:
+      4: 400026
+    second: Bip001 Pelvis
+  - first:
+      4: 400028
+    second: Bip001 R Calf
+  - first:
+      4: 400030
+    second: Bip001 R Clavicle
+  - first:
+      4: 400032
+    second: Bip001 R Finger0
+  - first:
+      4: 400034
+    second: Bip001 R Foot
+  - first:
+      4: 400036
+    second: Bip001 R Forearm
+  - first:
+      4: 400038
+    second: Bip001 R Hand
+  - first:
+      4: 400040
+    second: Bip001 R Thigh
+  - first:
+      4: 400042
+    second: Bip001 R Toe0
+  - first:
+      4: 400044
+    second: Bip001 R UpperArm
+  - first:
+      4: 400046
+    second: Bip001 Spine
+  - first:
+      4: 400048
+    second: character_body
+  - first:
+      4: 400050
+    second: character_fistL
+  - first:
+      4: 400052
+    second: character_fistR
+  - first:
+      4: 400054
+    second: character_footL
+  - first:
+      4: 400056
+    second: character_footR
+  - first:
+      4: 400058
+    second: character_head
+  - first:
+      4: 400060
+    second: character_pauldronL
+  - first:
+      4: 400062
+    second: character_pauldronR
+  - first:
+      4: 400064
+    second: character_skinnable
+  - first:
+      4: 400066
+    second: //RootNode
+  - first:
+      4: 400068
+    second: charMale_beard_retopo5k
+  - first:
+      4: 400070
+    second: charMale_hair_retopo5k
+  - first:
+      23: 2300000
+    second: character_body
+  - first:
+      23: 2300002
+    second: character_fistL
+  - first:
+      23: 2300004
+    second: character_fistR
+  - first:
+      23: 2300006
+    second: character_footL
+  - first:
+      23: 2300008
+    second: character_footR
+  - first:
+      23: 2300010
+    second: character_head
+  - first:
+      23: 2300012
+    second: character_pauldronL
+  - first:
+      23: 2300014
+    second: character_pauldronR
+  - first:
+      23: 2300016
+    second: charMale_beard_retopo5k
+  - first:
+      23: 2300018
+    second: charMale_hair_retopo5k
+  - first:
+      33: 3300000
+    second: character_body
+  - first:
+      33: 3300002
+    second: character_fistL
+  - first:
+      33: 3300004
+    second: character_fistR
+  - first:
+      33: 3300006
+    second: character_footL
+  - first:
+      33: 3300008
+    second: character_footR
+  - first:
+      33: 3300010
+    second: character_head
+  - first:
+      33: 3300012
+    second: character_pauldronL
+  - first:
+      33: 3300014
+    second: character_pauldronR
+  - first:
+      33: 3300016
+    second: charMale_beard_retopo5k
+  - first:
+      33: 3300018
+    second: charMale_hair_retopo5k
+  - first:
+      43: 4300000
+    second: character_skinnable
+  - first:
+      43: 4300002
+    second: character_footL
+  - first:
+      43: 4300004
+    second: character_footR
+  - first:
+      43: 4300006
+    second: character_fistL
+  - first:
+      43: 4300008
+    second: character_pauldronL
+  - first:
+      43: 4300010
+    second: character_fistR
+  - first:
+      43: 4300012
+    second: character_pauldronR
+  - first:
+      43: 4300014
+    second: character_head
+  - first:
+      43: 4300016
+    second: charMale_hair_retopo5k
+  - first:
+      43: 4300018
+    second: charMale_beard_retopo5k
+  - first:
+      43: 4300020
+    second: character_body
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: character_skinnable
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #26
+    second: {fileID: 2100000, guid: 90a56d684b1a34b45b385a8c7d9500f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #32
+    second: {fileID: 2100000, guid: f479c3302cce0f848b334ad3025b17ef, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 5688b82da7f8ed84ab6e85d93ed90f59
+  - ed72c4251d3ae0445af29819fbaa7ecd
+  - 358e8d1f21392b741a14f7121162d93b
+  - 0a57418dc5d834741be1c27fb34dea74
+  - f0333d576c1614d40a43dd28036d49e5
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

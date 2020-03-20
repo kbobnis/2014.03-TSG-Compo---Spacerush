@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
@@ -71,7 +73,7 @@ Shader "Shader Forge/cooler_pipe_Overheat_shader" {
                 float node_805 = _pushvalue;
                 v.vertex.xyz += (node_314*((sin((node_94.g*10.0))*node_805)+node_805));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
             }
@@ -153,7 +155,7 @@ Shader "Shader Forge/cooler_pipe_Overheat_shader" {
                 float node_805 = _pushvalue;
                 v.vertex.xyz += (node_314*((sin((node_94.g*10.0))*node_805)+node_805));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 TRANSFER_VERTEX_TO_FRAGMENT(o)
                 return o;
             }
@@ -226,7 +228,7 @@ Shader "Shader Forge/cooler_pipe_Overheat_shader" {
                 float node_805 = _pushvalue;
                 v.vertex.xyz += (node_314*((sin((node_94.g*10.0))*node_805)+node_805));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 TRANSFER_SHADOW_COLLECTOR(o)
                 return o;
             }
@@ -283,7 +285,7 @@ Shader "Shader Forge/cooler_pipe_Overheat_shader" {
                 float node_805 = _pushvalue;
                 v.vertex.xyz += (node_314*((sin((node_94.g*10.0))*node_805)+node_805));
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 TRANSFER_SHADOW_CASTER(o)
                 return o;
             }
