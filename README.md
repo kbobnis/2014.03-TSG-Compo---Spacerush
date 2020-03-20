@@ -8,3 +8,6 @@ Control the player using WSAD keys, hold SPACE to do any action
 Stand in the blue thing to heal yourself. Red floor means the oxygen in this room is running low.
 
 ![Gameplay](docs/spacerush_gameplay_small.gif)
+
+
+Link to game: [Game](docs/index.html)
