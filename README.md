@@ -10,4 +10,4 @@ Stand in the blue thing to heal yourself. Red floor means the oxygen in this roo
 ![Gameplay](docs/spacerush_gameplay_small.gif)
 
 
-Link to game: [Game](docs/index.html)
+Link to game: [https://kbobnis.github.io/spacerush/](https://kbobnis.github.io/spacerush/)
